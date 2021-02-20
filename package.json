@@ -1,7 +1,7 @@
 {
-  "name": "discord-bot-template",
+  "name": "mqcp-bot",
   "version": "1.0.0",
-  "description": "This is a template for me to use for when I am creating a discord bot.",
+  "description": "Bot for the Macquarie University Competitive Programming Group",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=prod node index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Solopie/discord-bot-template.git"
+    "url": "git+https://github.com/Solopie/mqcp-bot.git"
   },
-  "author": "",
+  "author": "Jesse Nguyen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Solopie/discord-bot-template/issues"
+    "url": "https://github.com/Solopie/mqcp-bot/issues"
   },
-  "homepage": "https://github.com/Solopie/discord-bot-template#readme",
+  "homepage": "https://github.com/Solopie/mqcp-bot#readme",
   "dependencies": {
     "discord.js": "^12.4.1",
     "dotenv": "^8.2.0"
