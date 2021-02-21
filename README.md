@@ -51,3 +51,11 @@ docker run -d -v /var/log/mqcp-bot/:/usr/src/app/logs/ -m 300m --cpus "0.5" --na
     - Directory path for logs
 - ADMIN_ROLE_NAME*
     - Name of admin role for the bot
+
+## Default Required Bot Permission 
+
+- Send Messages
+- Manage Roles
+    - Create Bot Admin Role
+- Manage messages
+    - Edit timer embed
