@@ -1,13 +1,11 @@
-version: "3.9"
+version: "3"
 services:
     mqcp-bot:
         build: "."
         image: mqcp-bot:latest
         container_name: mqcp-bot
         volumes:
-            - type: bind 
-              source: /var/log/mqcp-bot
-              target: /usr/src/app/logs
+            - "/var/log/mqcp-bot:/usr/src/app/logs"
         deploy:
             resources:
                 limits:
