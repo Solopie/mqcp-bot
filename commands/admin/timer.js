@@ -14,15 +14,9 @@ module.exports = {
 
         // Ensure minutes is a number
         let isValid = true;
-        let minutes;
+        let minutes = parseInt(args[0]);
 
-        try {
-            minutes = parseInt(args[0]);
-        } catch (e) {
-            isValid = false;
-        }
-
-        if(!isValid || minutes <= 0) {
+        if(isNaN(minutes) || minutes <= 0) {
             msg.reply("Please give a valid number as argument");
             return;
         }
