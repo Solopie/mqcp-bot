@@ -1,6 +1,6 @@
 version: "3.9"
 services:
-    template-bot:
+    mqcp-bot:
         build: "."
         image: mqcp-bot:latest
         container_name: mqcp-bot
