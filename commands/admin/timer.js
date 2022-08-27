@@ -47,7 +47,7 @@ module.exports = {
         // Check every second if a minute has passed
         const timerId = setInterval(() => {
             // Check if 1 minute has passed
-            if (moment.now() - oldTime >= 5000) {
+            if (moment.now() - oldTime >= 60000) {
                 oldTime = moment.now()
                 minutes -= 1;
 
